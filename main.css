@@ -65,7 +65,7 @@ body {
 }
 
 #info-overview #fullname {
-    font-family: 'Phosphate', sans-serif;
+    font-family: 'Phosphate', 'Futura-CondensedExtraBold', sans-serif;
     color: #3a3a3a;
     margin-bottom: 10px;
     font-size: 64px;
@@ -80,7 +80,7 @@ body {
 }
 
 .title {
-    font-family: 'Phosphate', sans-serif;
+    font-family: 'Phosphate', 'Futura-CondensedExtraBold', sans-serif;
     color: #3a3a3a;
     text-align: center;
     margin-top: 60px;
