@@ -1,0 +1,172 @@
+body {
+    margin-top: 80px;
+    margin-bottom: 120px;
+    margin-left: 20px;
+    margin-right: 20px;
+    background: #FEFEFE;
+}
+
+.image {
+    width: 100%;
+    max-width: 300px;
+    height: auto;
+    display: block;
+    margin: 0 auto;   
+}
+
+.image-round {
+    border-radius: 1000px;
+}
+
+.text-size-image {
+    height: 20px;
+    width: auto;
+}
+
+#uci-text-img {
+    height: 18px;
+    margin-bottom: 3px;
+}
+
+#google-text-img {
+    height: 22px;
+    margin-bottom: 3px;
+    margin-right: 2px;
+}
+
+#curbd-text-img {
+    height: 18px;
+    margin-bottom: 5px;
+}
+
+.social-media-links {
+    margin-top: 50px;
+    margin-bottom: 10px; 
+    text-align: center;
+}
+
+.social-image {
+    width: 40px;
+    height: 40px;
+    margin: 3px;
+    display: inline-block;
+}
+
+.center-vertical {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+#info-overview {
+    font-family: 'Rockwell';
+    color: #707070;
+}
+
+#info-overview #fullname {
+    font-family: 'Phosphate', sans-serif;
+    color: #3a3a3a;
+    margin-bottom: 10px;
+    font-size: 64px;
+}
+
+#about-me p {
+    font-family: 'Overpass', sans-serif;
+    font-size: 20px;
+    color: #707070;
+    margin: 0 auto;
+    max-width: 600px;
+}
+
+.title {
+    font-family: 'Phosphate', sans-serif;
+    color: #3a3a3a;
+    text-align: center;
+    margin-top: 60px;
+    margin-bottom: 30px;
+}
+
+.project {
+    max-width: 300px;
+    margin: 0 auto;
+    position: relative;
+}
+
+
+.project:hover .overlay {
+    opacity: .5;
+    transition: opacity .5s;
+}
+
+.overlay {
+    background: black;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    top: 0;
+    left: 0;
+    position: absolute;
+    padding: 0;
+    transition: opacity .5s;
+    border-radius: 1000px;
+    cursor: pointer;
+
+    font-family: 'Overpass', sans-serif;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.overlay .description {
+    text-align: center;
+    width: 90%;
+}
+ 
+.experience-row h4 {
+    font-family: 'Overpass', sans-serif;
+    margin-top: 20px;
+    font-size: 18px;
+    text-align: center;
+}
+
+#experience-title {
+    margin-top: 80px;
+    margin-bottom: 70px;
+}
+  
+@media (max-width: 992px) {
+    body {
+        margin-top: 40px;
+        margin-bottom: 80px;
+    }
+    #info-overview #fullname {
+        font-size: 52px;
+    }    
+    #info-overview {
+        margin-top: 30px;
+    }
+    .project {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    #about-me p {
+        max-width: 450px;
+    }
+    #experience-title {
+        margin-top: 40px;
+        margin-bottom: 60px;
+    }    
+    .experience {
+        margin-bottom: 60px;
+    }
+}
+
+@media (min-width: 992px) {
+    .project-row {
+        margin-top: 60px;
+        margin-bottom: 60px;
+    }
+}
