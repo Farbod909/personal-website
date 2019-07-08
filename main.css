@@ -42,6 +42,17 @@ body {
     margin-bottom: 5px;
 }
 
+#location-text-img {
+    height: 32px;
+    margin-bottom: 6px;
+}
+
+#location-text {
+    margin: 0 auto;
+    font-family: 'Overpass', sans-serif;
+    font-size: 22px;
+}
+
 .social-media-links {
     margin-top: 50px;
     margin-bottom: 10px; 
