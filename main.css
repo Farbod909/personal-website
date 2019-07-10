@@ -1,6 +1,6 @@
 body {
     margin-bottom: 120px;
-    background: #FEFEFE;
+    background: rgb(249, 249, 249);
 }
 
 #main-card {
@@ -74,12 +74,12 @@ body {
 }
 
 #info-overview {
-    font-family: 'Rockwell';
+    font-family: 'Arvo', serif;
     color: #505050;
 }
 
 #info-overview #fullname {
-    font-family: 'Futura-CondensedExtraBold', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: #3a3a3a;
     margin-bottom: 10px;
     font-size: 64px;
@@ -91,10 +91,12 @@ body {
     color: #707070;
     margin: 0 auto;
     max-width: 600px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 
 .title {
-    font-family: 'Futura-CondensedExtraBold', sans-serif;
+    font-family: 'Open Sans Condensed', sans-serif;
     color: #3a3a3a;
     text-align: center;
     margin-top: 60px;
@@ -149,6 +151,13 @@ body {
 #experience-title {
     margin-top: 80px;
     margin-bottom: 70px;
+}
+
+.experience {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 @media (max-width: 440px) {
